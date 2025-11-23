@@ -1,0 +1,67 @@
+{
+  "name": "tube-joint-visualizer",
+  "version": "1.0.0",
+  "description": "Interactive 3D Tube Joint Visualization Application",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "author": "Your Name",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "electron": "electron .",
+    "build:electron": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.tubejoint.visualizer",
+    "productName": "TubeJointVisualizer",
+    "extends": null,
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "files": [
+      "build/**/*",
+      "public/electron.js"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4",
+    "react-scripts": "5.0.1",
+    "wait-on": "^7.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
