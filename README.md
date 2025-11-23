@@ -25,17 +25,20 @@ An interactive 3D desktop application for creating, visualizing, and manipulatin
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/tube-joint-visualizer.git
 cd tube-joint-visualizer
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Run the development version:
+
 ```bash
 npm run electron-dev
 ```
@@ -43,6 +46,7 @@ npm run electron-dev
 ## 📦 Building the Application
 
 ### Build for your platform:
+
 ```bash
 npm run build:electron
 ```
@@ -64,6 +68,7 @@ This will create a standalone executable in the `dist/` folder.
 - **Sidebar Controls**: Select, rotate, and delete tubes
 
 ## 📂 Project Structure
+
 ```
 tube-joint-visualizer/
 ├── electron/
@@ -92,6 +97,7 @@ tube-joint-visualizer/
 ## 📝 Development Workflow
 
 All commits follow conventional commit messages:
+
 - `feat:` New features
 - `fix:` Bug fixes
 - `docs:` Documentation updates
@@ -101,11 +107,13 @@ All commits follow conventional commit messages:
 ## 🐛 Troubleshooting
 
 ### Application won't start
+
 - Ensure all dependencies are installed: `npm install`
 - Clear cache: `npm cache clean --force`
 - Rebuild: `npm run build`
 
 ### 3D rendering issues
+
 - Update your graphics drivers
 - Ensure WebGL is enabled in your browser/Electron
 
@@ -115,7 +123,7 @@ MIT License - feel free to use this project for learning or commercial purposes.
 
 ## 👨‍💻 Author
 
-[Your Name]
+[ABHISHEK DODDAMANI]
 
 ## 🙏 Acknowledgments
 
