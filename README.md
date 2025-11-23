@@ -123,7 +123,7 @@ MIT License - feel free to use this project for learning or commercial purposes.
 
 ## 👨‍💻 Author
 
-[ABHISHEK DODDAMANI]
+    ABHISHEK DODDAMANI
 
 ## 🙏 Acknowledgments
 
